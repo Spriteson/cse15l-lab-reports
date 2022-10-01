@@ -3,7 +3,7 @@ Week 1 – Installing VScode
 🌟Part 1: Installing VScode
 Go to VScode's website and download it.  https://code.visualstudio.com/
 It only works on Windows, OSX, and linux. (If you only have tablet or non of those system's computer, don't download it, it won't work.)
-![image]
+![image](ScreenShot1.png)
 
 🌟Part 2: Remotely Connecting
 Many CSE courses use course-specific account. You can look up your course-specific account over https://sdacs.ucsd.edu/~icc/index.php
@@ -17,18 +17,18 @@ it should look like this, but replace zz with your specific account.
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
 
 For people who are the first time connected to this server, it will show up a question:
-![image]
+_Are you sure you want to continue connecting (yes/no/[fingerprint])?_
 
 Just type "yes" and enter.
 After login sucessfully, it would look like this:
-![image]
+![image](ScreenShot2.png)
 
 🌟Part 3: Trying Some Commands
 Now we're on the remote computer. Try to run some coomands.
-![image]
+![image](ScreenShot3.png)
 
 We can log out the server by two ways: Ctrl-D or using command "exit"
-![image]
+
 
 🌟Part 4: Moving Files with scp
 Frist step: 
@@ -45,7 +45,6 @@ class WhereAmI {
 then compile and run it by the follwing:
 javac WhereAmI.java
 java WhereAmI
-![image]
 
 Second step: 
 Using the command "scp" to copy the file that on your computer to the remote computer.
@@ -56,7 +55,8 @@ Then it will ask you your password. After you entering the correct password, the
 Third step:
 login into the remote computer and use ls to see if the file is on the directory.
 Use the same command javac and java as before to run the the program.
-![image]
+
+![image](ScreenShot4.png)
 
 🌟Part 5: Setting an SSH Key
 
@@ -72,18 +72,19 @@ Second step:
 1. login into the remote computer again (on local computer)
 2. enter "mkdir .ssh" on the remote computer (on remote computer)
 3. logout
-4. enter "/Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys" (on local computer)
+4. enter "/Users/joe/.ssh/id_rsa.pub cs15lfa22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys" (on local computer)
 5. enter password.
-![image]
+![image](ScreenShot5.png)
+![image](ScreenShot5-1.png)
 
 After all these steps, now you no need to enter password to login into the remote computer.
-![image]
+![image](ScreenShot5-2.png)
 
 🌟Part 6: Optimizing Remote Running
 1. We can add command in quotes at the end of an ssh to directly run it on the remote computer, then exit.
-$ ssh cs15lfa22@ieng6.ucsd.edu "ls"
-![image]
+$ ssh cs15lfa22zz@ieng6.ucsd.edu "ls"
+![image](ScreenShot6.png)
 
 2. We can also use semicolons to run multiple commands on the same line.
 $ javac WhereAmI.java; java WhereAmI
-![image]
+![image](ScreenShot6-1.png)
