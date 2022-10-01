@@ -1,12 +1,16 @@
 # Week 1 – Remote Access and the Filesystem
 
-## 🌟Part 1: Installing VScode
+
+
+**🌟Part 1: Installing VScode**
 Go to VScode's [website](https://code.visualstudio.com/) and download it.
 
 It only works on Windows, OSX, and linux. (If you only have tablet or non of those system's computer, don't download it, it won't work.)
 ![image](ScreenShot1.png)
 
-## 🌟Part 2: Remotely Connecting
+
+
+**🌟Part 2: Remotely Connecting**
 Many CSE courses use course-specific account. You can look up your course-specific account over [here](https://sdacs.ucsd.edu/~icc/index.php)
 
 It's initial password is your AD password, and we will need to change it.
@@ -31,13 +35,17 @@ After login sucessfully, it would look like this:
 ![image](ScreenShot2.png)
 
 
-## 🌟Part 3: Trying Some Commands
+
+**🌟Part 3: Trying Some Commands**
+
 Now we're on the remote computer. Try to run some coomands.
 ![image](ScreenShot3.png)
 
 We can log out the server by two ways: Ctrl-D or using command "exit"
 
-## 🌟Part 4: Moving Files with scp
+
+
+**🌟Part 4: Moving Files with scp**
 
 * Frist step: 
 create a local file called WhereAmI.java and put the following contents into it:
@@ -71,15 +79,23 @@ Use the same command javac and java as before to run the the program.
 
 ![image](ScreenShot4.png)
 
-## 🌟Part 5: Setting an SSH Key
+
+
+**🌟Part 5: Setting an SSH Key**
 
 * First step:
 Type `ssh-keygen` on local computer
-When it shows `Enter file in which to save the key (/Users/joe/.ssh/id_rsa):`
+When it shows 
+```
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa):
+```
 
-Enter /Users/joe/.ssh/id_rsa
+Enter `/Users/joe/.ssh/id_rsa`
 
-Then it will shows: `Enter passphrase (empty for no passphrase): `
+Then it will shows: 
+```
+Enter passphrase (empty for no passphrase): 
+```
 
 Press `enter` here, don't write anything.
 
@@ -97,7 +113,10 @@ Enter same passphrase again:  enter again.
 After all these steps, now you no need to enter password to login into the remote computer.
 ![image](ScreenShot5-2.png)
 
-🌟Part 6: Optimizing Remote Running
+
+
+**🌟Part 6: Optimizing Remote Running**
+
 1. We can add command in quotes at the end of an ssh to directly run it on the remote computer, then exit.
 ```
 $ ssh cs15lfa22zz@ieng6.ucsd.edu "ls"
