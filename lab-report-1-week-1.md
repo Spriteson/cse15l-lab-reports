@@ -65,7 +65,10 @@ then compile and run it by the follwing:
 javac WhereAmI.java
 java WhereAmI
 ```
-
+Sometime we are now on the right directory yet, just use the command
+```
+cd /direction of the file/ (don't include the file)
+```
 * Second step: 
 Using the command `scp` to copy the file that on your computer to the remote computer.
 
