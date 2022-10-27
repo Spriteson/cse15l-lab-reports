@@ -143,7 +143,7 @@ Thses lines of code will get called to check if the substring in my str contains
 
 **🌟Part 2: Bugs**
 
-*Array Methods
+*Array Methods*
 -The failure-inducing input (the code of the test)
 ![image](ScreenShotLab2-4.png)
 
@@ -167,7 +167,7 @@ The code supppoed to create a new array to store the reversed array, but the bug
 
 
 
-*List Methods
+*List Methods*
 -The failure-inducing input (the code of the test)
 ![image](ScreenShotLab2-9.png)
 
