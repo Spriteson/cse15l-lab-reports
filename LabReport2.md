@@ -61,6 +61,7 @@ class SearchEngine {
 
 ```
 
+<<<<<<< HEAD
 ![image](ScreenShotLab2-1.png)
 -Which methods in your code are called
 ```
@@ -140,9 +141,11 @@ for (int i = 0; i < subStr.length; i++){
 Thses lines of code will get called to check if the substring in my str contains `app` or not, if the yes, it will add the that targetStr. 
 
 
+
 **🌟Part 2: Bugs**
 
 *Array Methods
+<<<<<<< HEAD
 -The failure-inducing input (the code of the test)
 ![image](ScreenShotLab2-4.png)
 
@@ -159,6 +162,7 @@ Thses lines of code will get called to check if the substring in my str contains
 
 The test failed because of the AssertionError, which is because of the expected value different from the return value.
 
+<<<<<<< HEAD
 The bug for reversed was `newArray[arr.length - i - 1]`in `arr[i] = newArray[arr.length - i - 1]`, it make the original array to store the new array, and didn't story any in the new array.  This bug causes the symptom that the new array is not contain the expected vlues.
 
 The code supppoed to create a new array to store the reversed array, but the bug makes the old array copy the new array’s value which has nothing on it yet. so the input is {4,2} and the expected output should be {2,4}, but the actul output is 0 which is empty, this casusing the symptom that the excepted output and actul output is not equal.
@@ -183,6 +187,7 @@ The code supppoed to create a new array to store the reversed array, but the bug
 The bug for reversed was `add(0,s)`in `result.add(0,s);`, it make the s added to the first position of the result array, which should be added to the end of the array.  This bug causes the symptom that the elements in output array is not stored in the position that we want.
 
 The code supppoed to add the matched string to the result list in the same order that it is in the origital list, The bug makes s added to the begining of the result list. The input was `apple` and `banana`, it should be add `apple` and then add `banana`, to make the result list is {"apple", "banana"}. But the bug add s to the begining of reslut list. When we add `apple` to the result list, `apple` was added to the begining of reslut list, this is ok because the reslut list is empty. Then, when we add `banana` to the result list, `banana` was added to the begining of the result list, this is NOT ok because it made the result list become `banana, apple` which is not the order we exepted (`appple, banana`).
+
 
 
 
