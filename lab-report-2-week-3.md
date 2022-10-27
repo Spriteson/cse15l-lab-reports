@@ -61,7 +61,6 @@ class SearchEngine {
 
 ```
 
-<<<<<<< HEAD
 ![image](ScreenShotLab2-1.png)
 -Which methods in your code are called
 ```
@@ -106,7 +105,7 @@ The original `str` was `pineapple`, and when I add `/add?s=apple` on the url, `S
 
 
 
-I called search method to search a substring app. The string is pineapple apple, and after searching app, pineapple and apple were diplaied because they have the substring app.
+
 ![image](ScreenShotLab2-3.png)
 ```
 else if (url.getPath().contains("/search")) {
@@ -145,7 +144,6 @@ Thses lines of code will get called to check if the substring in my str contains
 **🌟Part 2: Bugs**
 
 *Array Methods
-<<<<<<< HEAD
 -The failure-inducing input (the code of the test)
 ![image](ScreenShotLab2-4.png)
 
@@ -162,7 +160,7 @@ Thses lines of code will get called to check if the substring in my str contains
 
 The test failed because of the AssertionError, which is because of the expected value different from the return value.
 
-<<<<<<< HEAD
+
 The bug for reversed was `newArray[arr.length - i - 1]`in `arr[i] = newArray[arr.length - i - 1]`, it make the original array to store the new array, and didn't story any in the new array.  This bug causes the symptom that the new array is not contain the expected vlues.
 
 The code supppoed to create a new array to store the reversed array, but the bug makes the old array copy the new array’s value which has nothing on it yet. so the input is {4,2} and the expected output should be {2,4}, but the actul output is 0 which is empty, this casusing the symptom that the excepted output and actul output is not equal.
