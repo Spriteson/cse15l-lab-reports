@@ -1,4 +1,4 @@
-# Lab Report 3 – Servers and Bugs
+# Lab Report 3 – Researching Commands
 
 **find**
 
