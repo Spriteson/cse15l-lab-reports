@@ -10,9 +10,16 @@ Changing the main method to take a command-line argument
 * `/start<Enter>` cursor jumping to the start of `start`.
 ![image](image/lab4-1.png)
 * `ce` deleting the word `start` and switching into insert mode.
+![image](image/lab4-2.png)
 * `base<Esc>` replacing the text and returning to normal mode.
+![image](image/lab4-3.png)
 * `n` will find next `start` and press `.` will repeat the last change I made.
+![image](image/lab4-4.png)
+![image](image/lab4-5.png)
+![image](image/lab4-6.png)
+![image](image/lab4-7.png)
 * `:w<Enter>` will save the changes.
-
+![image](image/lab4-8.png)
+![image](image/lab4-9.png)
 
 **Part 2**
