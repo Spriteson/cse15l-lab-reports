@@ -8,7 +8,7 @@ Changing the main method to take a command-line argument
 
 `/start<Enter>cgnbase<Esc>n.n.n.:w<Enter>`
 * `/start<Enter>` cursor jumping to the start of `start`.
-![image](image/ScreenShotLab4-1.png)
+![image](image/lab4-1.png)
 * `ce` deleting the word `start` and switching into insert mode.
 * `base<Esc>` replacing the text and returning to normal mode.
 * `n` will find next `start` and press `.` will repeat the last change I made.
