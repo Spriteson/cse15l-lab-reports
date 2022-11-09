@@ -7,10 +7,10 @@ Changing the main method to take a command-line argument
 
 
 `/start<Enter>cgnbase<Esc>n.n.n.:w<Enter>`
-* `/start<Enter>` will find the string start.
-* `cgn` will delete the string start and get into insert mode.
-* `base<Esc>` will insert base and exit the insert mode.
-* `n` will find next “start” and press `.` will repeat the last change I made.
+* `/start<Enter>` cursor jumping to the start of `start`.
+* `ce` deleting the word `start` and switching into insert mode.
+* `base<Esc>` replacing the text and returning to normal mode.
+* `n` will find next `start` and press `.` will repeat the last change I made.
 * `:w<Enter>` will save the changes.
 
 
