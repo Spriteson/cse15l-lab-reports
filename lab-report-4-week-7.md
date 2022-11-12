@@ -25,8 +25,10 @@ Changing the main method to take a command-line argument
 **Part 2**
 
 * Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+
 I will use the sceond way, which is using vim.The reason I'm using vim is because I don't need to download the program back and forth. It saves my time.
 
 
 * What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+
 The size of the project will be the factor of my decision. If the project is too big, I don't want to download the project in local computer at all. Also the steps and time wasted. 
