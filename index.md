@@ -10,4 +10,6 @@ _Changing?_
 
 [Lab Report 3](https://spriteson.github.io/cse15l-lab-reports/lab-report-3-week-5.html)
 
+[Lab Report 4](https://spriteson.github.io/cse15l-lab-reports/lab-report-4-week-7.html)
+
 
