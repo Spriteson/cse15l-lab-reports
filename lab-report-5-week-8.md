@@ -44,14 +44,18 @@ fi
 ![image](image/lab5-3.png)
 
 ---
-* THIRD SCREENSHOT *
+* THIRD SCREENSHOT
+
+
 `rm -rf student-submission`        standard output:                                           standard error:       Exit code: 0
 `git clone $1 student-submission`  standard output: Cloning into 'student-submission'...      standard error:       Exit code: 0
 `cd student-submission/`           standard output:                                           standard error:       Exit code: 0
 `echo "Wrong file submitted."`     standard output: Wrong file submitted.                     standard error:       Exit code: 0
----
+
+
 In the third screenshot,`if [[ -f ListExamples.java ]]` the condition is false because wrong file/file-name was submitted. When grade.sh check if ListExamples.java exsit or not in student-submission, because it cannot find the file named ListExamples.java, it return false.
----
+
+
 The line `echo ""` which comes after `if [[ -f ListExamples.java ]]` is not run because `if [[ -f ListExamples.java ]]` is flase.
 ```
 cd list-examples-grader/
