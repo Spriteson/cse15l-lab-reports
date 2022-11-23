@@ -56,7 +56,7 @@ fi
 In the third screenshot,`if [[ -f ListExamples.java ]]` the condition is false because wrong file/file-name was submitted. When grade.sh check if ListExamples.java exsit or not in student-submission, because it cannot find the file named ListExamples.java, it return false.
 
 
-The line `echo ""` which comes after `if [[ -f ListExamples.java ]]` is not run because `if [[ -f ListExamples.java ]]` is flase.
+The line `echo ""` which comes after `if [[ -f ListExamples.java ]]` isn't run because `if [[ -f ListExamples.java ]]` is flase.
 ```
 cd list-examples-grader/
 cp student-submission/ListExamples.java ./
