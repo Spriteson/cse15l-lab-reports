@@ -48,8 +48,11 @@ fi
 
 
 `rm -rf student-submission`        standard output:                                           standard error:       Exit code: 0
+
 `git clone $1 student-submission`  standard output: Cloning into 'student-submission'...      standard error:       Exit code: 0
+
 `cd student-submission/`           standard output:                                           standard error:       Exit code: 0
+
 `echo "Wrong file submitted."`     standard output: Wrong file submitted.                     standard error:       Exit code: 0
 
 
