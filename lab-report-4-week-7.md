@@ -24,6 +24,7 @@ Changing the name of the start parameter and its uses to base
 
 * Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
+Using scp took me 3 mintues to complete the work, yet using vim only took me 1 minute to complete the work. When I was using scp, the waiting time took a while, and the most difficulty is to find the `start` because there is a lot of content on the file, and I had to read line by line which is inconvenient.
 I will use the sceond way, which is using vim.The reason I'm using vim is because I don't need to download the program back and forth. It saves my time.
 
 
